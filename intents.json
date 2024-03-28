@@ -1,0 +1,202 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?" ,
+        "what you have?"
+      ],
+      "responses": [
+        "We sell tea and coffee ",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "what is the payment method?",
+        "payments","Payment","cash or online",
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard, Paypal and  UPI ",
+        "We accept most major credit cards, and Paypal",
+        "Cash or Upi?"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days",
+        "It will take 2-4 working days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order?",
+        "Check my order status",
+        "Is my package shipped?"
+      ],
+      "responses": [
+        "To check your order status, please provide your order number."
+      ]
+    },
+    {
+      "tag": "product_information",
+      "patterns": [
+        "Tell me about product X",
+        "Product specifications",
+        "Do you have product reviews?"
+      ],
+      "responses": [
+        "Sure, let me provide you with information about product X."
+      ]
+    },
+    {
+      "tag": "returns_and_exchanges",
+      "patterns": [
+        "How can I return a product?",
+        "Exchange policy",
+        "What's your return process?"
+      ],
+      "responses": [
+        "Our return process is simple. Please check our return policy page for details."
+      ]
+    },
+    {
+      "tag": "customer_support",
+      "patterns": [
+        "I need help",
+        "Customer support",
+        "Can I talk to a representative?"
+      ],
+      "responses": [
+        "Certainly, our customer support team is here to assist you. Please describe your issue."
+      ]
+    },
+    {
+      "tag": "discounts_and_promotions",
+      "patterns": [
+        "Are there any discounts?",
+        "Promotions",
+        "Coupon codes"
+      ],
+      "responses": [
+        "Yes, we often have promotions and discounts. Check our promotions page for the latest offers."
+      ]
+    },
+    {
+      "tag": "account_management",
+      "patterns": [
+        "How to create an account?",
+        "Forgot my password",
+        "Update account details"
+      ],
+      "responses": [
+        "For account-related tasks, you can visit the account management section on our website."
+      ]
+    },
+    {
+      "tag": "privacy_concerns",
+      "patterns": [
+        "How is my data secured?",
+        "Privacy policy",
+        "Do you share my information?"
+      ],
+      "responses": [
+        "We take your privacy seriously. You can review our privacy policy for detailed information."
+      ]
+    },
+    {
+      "tag": "feedback_and_suggestions",
+      "patterns": [
+        "I have feedback",
+        "Suggestions",
+        "Improvements"
+      ],
+      "responses": [
+        "We appreciate your feedback! Please share your thoughts, and we'll consider them for future improvements."
+      ]
+    },
+    {
+      "tag": "tech_support",
+      "patterns": [
+        "Technical issues",
+        "Website problems",
+        "Troubleshoot"
+      ],
+      "responses": [
+        "If you're facing technical issues, please describe the problem so we can assist you better."
+      ]
+    },
+    {
+      "tag": "faq_overview",
+      "patterns": [
+        "Tell me about your FAQs",
+        "Common questions",
+        "FAQ topics"
+      ],
+      "responses": [
+        "Our FAQs cover a range of topics. Feel free to ask about specific information or browse our FAQs page."
+      ]
+    }
+  ]
+}
